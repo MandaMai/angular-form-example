@@ -58,6 +58,7 @@ export class AppComponent {
   }
 
   //start out the errors as an emtpy string
+  // fields needing error messages need to be listed here
   formErrors = {
     'first_name': '',
     'last_name': ''
