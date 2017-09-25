@@ -15,7 +15,8 @@ export class AppComponent {
   }
 
 
-  onSubmit() {
+  onSubmit(data: NgForm) {
+    console.log(data.value);
     console.log(this.model);
   }
 
